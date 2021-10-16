@@ -1,0 +1,22 @@
+=========================
+Allen Human Brain Atlas
+=========================
+
+This archive contains expression data for rows 1 through 2000 of a 'search' search
+at a 'Coarse' resolution level, arranged by donors,structures.
+
+The file Expression.csv contains expression values, calculated using zscore normalization.
+Each row begins with the ID of a probe.
+
+The file Columns.csv contains metadata for each column in Expression.csv, arranged in the same order.
+The columns sample_mri_0, sample_mri_1, sample_mri_2 should be understood to be MRI coordinates of the sample in x,y,z order.
+A value of -1 in any of the sample_xxx columns of Columns.csv indicates that there is no sample data for that column.
+This can occur for example when there are multiple donors in the data set, and not all structures have been sampled in all donors.
+Corresponding cells in Expression.csv will be blank.
+
+The file Probes.csv contains metadata for the probes referenced in Expression.csv.
+
+The original search can be reproduced on our web site at https://human.brain-map.org/microarray/search/show?search_term=84&search_type=gene_classification
+
+
+
