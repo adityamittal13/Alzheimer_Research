@@ -1,9 +1,9 @@
 # Alzheimer_Research
-# Memo
+## Memo
 
 How can we leverage transcriptomic and MRI brain data to predict new genetic targets for neurodegenerative diseases, in relation to the immune system and inflammation?
 
-# Executive Summary
+## Executive Summary
 
 Neurodegenerative disorders, like Alzheimer's and Parkinson's, afflict nearly a billion individuals worldwide, causing decreased brain function and movement. Current clinical studies focus on remediating symptoms of these diseases rather than removing underlying causes; along with having a lack of understanding and complexity from a neural transcriptome perspective, many scientists struggle to find a permanent solution to these issues.
 
@@ -11,7 +11,7 @@ By leveraging transcriptome and MRI imaging, this study aims to expand possible 
 
 This venture will provide new targets for researchers and increase savings through an automated workflow and accessibility through open-source code; additional testing can be run to validate these hypotheses, allowing for much stronger targeted treatments than before.
 
-# Problem
+## Problem
 
 **Nearly [1 billion](https://news.un.org/en/story/2007/02/210312-nearly-1-6-worlds-population-suffer-neurological-disorders-un-report) individuals are afflicted with neurological diseases**, from Alzheimer's disease to migraines to multiple sclerosis, with 6.8 million deaths each year. Currently, **there are [no cures for neurological diseases](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6027455)** due to the complexity of neural systems and lack of understanding from a genome and transcriptome perspective.
 
@@ -33,7 +33,7 @@ In 2013, the United States spent nearly [$456.1 billion](https://www.nsf.gov/sta
 
 Lastly, the government, particularly the NIH, has a large stake in Alzheimer's research, with over [5% of its total budget](https://www.science.org/content/article/alzheimer-s-gamble-nih-tries-turn-billions-new-funding-treatment-deadly-brain-disease) going towards funding neurodegenerative disease research; government spending has ramped up, due to increases in grant applications and the government wanting to "bring in fresh ideas". This is evidenced by their change in spending, with a decrease in [~10% in β-amyloid](https://www.science.org/content/article/alzheimer-s-gamble-nih-tries-turn-billions-new-funding-treatment-deadly-brain-disease) from 27.2% and a ~3% increase in genetics research from 9.3%, among other novel ideas. Lastly, out of 452 that won Alzheimer's grants, 27% received their first NIH grant, while only 36% were established, indicating, in NIH Director Richard Hodes' words, that "[they're] not just repeating the things that failed and hoping [they] get a different result."
 
-# Solution
+### Solution
 
 *Code for building the pipeline can be accessed [here](https://github.com/adityamittal13/Alzheimer_Research).*
 
@@ -43,7 +43,7 @@ To relate inflammation data to genomic markers, the [Allen Brain Atlas](https://
 
 To provide differential gene expression, FASTQ files were needed in conjunction with gene/transcript expression matrices. The [Aging, Dementia, and Traumatic Brain Injury Study](https://www.niagads.org/datasets/ng00059) in conjunction with [Guan et. al 2021.](https://www.niagads.org/datasets/ng00112) provided the requisite files needed.
 
-## Workflow
+### Workflow
 
 ![Screen Shot 2021-10-16 at 2.35.26 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_2.35.26_PM.png)
 
@@ -81,7 +81,7 @@ The pathway can be thus used to infer which cluster of genes with respect to the
 
 This workflow was segmented for all regions of the brain, and so novel insights can be derived for each individual section and with respect to its function. 
 
-# Results and Discussion
+## Results and Discussion
 
 ![Screen Shot 2021-10-16 at 11.04.05 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.04.05_PM.png)
 
@@ -103,7 +103,7 @@ The results were obtained for 26 different parts of the brain, each oriented for
 
 ![Screen Shot 2021-10-16 at 8.46.09 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_8.46.09_PM.png)
 
-# Impact
+## Impact
 
 This study can allow for better-targeted treatments tackling Alzheimer's as researchers can understand the efficacy of certain genes in different parts of the brain through differential gene and transcript expression. Through our workflow outlined above, the scientists can:
 
