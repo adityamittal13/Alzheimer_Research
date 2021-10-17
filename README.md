@@ -1,9 +1,8 @@
-# Alzheimer_Research
-## Memo
+# Memo
 
 How can we leverage transcriptomic and MRI brain data to predict new genetic targets for neurodegenerative diseases, in relation to the immune system and inflammation?
 
-## Executive Summary
+# Executive Summary
 
 Neurodegenerative disorders, like Alzheimer's and Parkinson's, afflict nearly a billion individuals worldwide, causing decreased brain function and movement. Current clinical studies focus on remediating symptoms of these diseases rather than removing underlying causes; along with having a lack of understanding and complexity from a neural transcriptome perspective, many scientists struggle to find a permanent solution to these issues.
 
@@ -11,7 +10,7 @@ By leveraging transcriptome and MRI imaging, this study aims to expand possible 
 
 This venture will provide new targets for researchers and increase savings through an automated workflow and accessibility through open-source code; additional testing can be run to validate these hypotheses, allowing for much stronger targeted treatments than before.
 
-## Problem
+# Problem
 
 **Nearly [1 billion](https://news.un.org/en/story/2007/02/210312-nearly-1-6-worlds-population-suffer-neurological-disorders-un-report) individuals are afflicted with neurological diseases**, from Alzheimer's disease to migraines to multiple sclerosis, with 6.8 million deaths each year. Currently, **there are [no cures for neurological diseases](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6027455)** due to the complexity of neural systems and lack of understanding from a genome and transcriptome perspective.
 
@@ -33,7 +32,7 @@ In 2013, the United States spent nearly [$456.1 billion](https://www.nsf.gov/sta
 
 Lastly, the government, particularly the NIH, has a large stake in Alzheimer's research, with over [5% of its total budget](https://www.science.org/content/article/alzheimer-s-gamble-nih-tries-turn-billions-new-funding-treatment-deadly-brain-disease) going towards funding neurodegenerative disease research; government spending has ramped up, due to increases in grant applications and the government wanting to "bring in fresh ideas". This is evidenced by their change in spending, with a decrease in [~10% in β-amyloid](https://www.science.org/content/article/alzheimer-s-gamble-nih-tries-turn-billions-new-funding-treatment-deadly-brain-disease) from 27.2% and a ~3% increase in genetics research from 9.3%, among other novel ideas. Lastly, out of 452 that won Alzheimer's grants, 27% received their first NIH grant, while only 36% were established, indicating, in NIH Director Richard Hodes' words, that "[they're] not just repeating the things that failed and hoping [they] get a different result."
 
-### Solution
+# Solution
 
 *Code for building the pipeline can be accessed [here](https://github.com/adityamittal13/Alzheimer_Research).*
 
@@ -43,9 +42,11 @@ To relate inflammation data to genomic markers, the [Allen Brain Atlas](https://
 
 To provide differential gene expression, FASTQ files were needed in conjunction with gene/transcript expression matrices. The [Aging, Dementia, and Traumatic Brain Injury Study](https://www.niagads.org/datasets/ng00059) in conjunction with [Guan et. al 2021.](https://www.niagads.org/datasets/ng00112) provided the requisite files needed.
 
-### Workflow
+## Workflow
 
-![Screen Shot 2021-10-16 at 2.35.26 PM.png](Memo/Screen_Shot_2021-10-16_at_2.35.26_PM.png)
+![Screen Shot 2021-10-16 at 2.35.26 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_2.35.26_PM.png)
+
+Developing ML algorithms that can segment and interpret phenotypic-level changes in the brain are only valuable if there is a biological decision making process that can connect genome-wide associations with whole-brain patterns. This is why our pipeline is designed to validate many different hypotheses based on whole-brain changes by region and then looking at individual gene expression profiles to find causation. This is critical in the discovery of new biomarkers for early prevention and diagnosis while also informing drug design and discovery at the genome level. 
 
 ### Analyzing MRI Imaging Data To Detect Inflammation
 
@@ -81,37 +82,53 @@ The pathway can be thus used to infer which cluster of genes with respect to the
 
 This workflow was segmented for all regions of the brain, and so novel insights can be derived for each individual section and with respect to its function. 
 
-## Results and Discussion
+# Results and Discussion
 
-![Screen Shot 2021-10-16 at 11.04.05 PM.png](Memo/Screen_Shot_2021-10-16_at_11.04.05_PM.png)
+![Screen Shot 2021-10-16 at 11.04.05 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.04.05_PM.png)
 
-![Screen Shot 2021-10-16 at 11.19.21 PM.png](Memo/Screen_Shot_2021-10-16_at_11.19.21_PM.png)
+![Screen Shot 2021-10-16 at 11.19.21 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.19.21_PM.png)
 
-![Screen Shot 2021-10-16 at 11.22.34 PM.png](Memo/Screen_Shot_2021-10-16_at_11.22.34_PM.png)
+![Screen Shot 2021-10-16 at 11.22.34 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.22.34_PM.png)
 
 This is identified by the upregulation of several genes in the hippocampal pathway in comparison to the occipital lobe pathway when looking at the overlap across the neurodegenerative and inflammation correlation. 
 
 This indicates that genes GRB2, MAPK1, and PRKCG regulate inflammation and are highly expressed in the presence of neurodegenerative diseases, along with several other potential genes who cluster near the pathway trendline. 
 
-![Screen Shot 2021-10-16 at 11.36.04 PM.png](Memo/Screen_Shot_2021-10-16_at_11.36.04_PM.png)
+![Screen Shot 2021-10-16 at 11.36.04 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.36.04_PM.png)
 
 The same trend showed true for the average expression levels for each gene relative to the area, with the range of expression for the most upregulated genes in the neurodegenerative and inflammation datasets for the hippocampal pathway were between 1.384 to 2.619. 
 
-![Screen Shot 2021-10-16 at 11.33.06 PM.png](Memo/Screen_Shot_2021-10-16_at_11.33.06_PM.png)
+![Screen Shot 2021-10-16 at 11.33.06 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.33.06_PM.png)
 
-The results were obtained for 26 different parts of the brain, each oriented for the specific sequence of transcription. Inflammation in the occipital lobe had a low correlation with most if not all degenerative diseases (which coincides with common logic as Alzheimers does not affect this area) found in the TSNE clustering. However, for the hippocampal formation data, there was a strong correlation with clustered genes and the ground-truth, indicating that there is an early onset of gene expression in this region that directly correlates to AD.
+The results were obtained for 26 different parts of the brain, each oriented for the specific sequence of transcription. Inflammation in the occipital lobe had a low correlation with most if not all degenerative diseases (which coincides with common logic as Alzheimers does not affect this area) found in the tSNE clustering. However, for the hippocampal formation data, there was a strong correlation with clustered genes and the ground-truth, indicating that there is an early onset of gene expression in this region that directly correlates to AD.
 
-![Screen Shot 2021-10-16 at 8.46.09 PM.png](Memo/Screen_Shot_2021-10-16_at_8.46.09_PM.png)
+![Screen Shot 2021-10-16 at 8.53.42 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_8.53.42_PM.png)
 
-## Impact
+In genomic studies, tSNE captures neighboring points in the input space in terms of their distance, clustering them together and making them neighbors in a two dimensional framework. The tSNE plots to the left show little to no relationship between different gene expression profiles in terms of the mapped regions inside of the brain. 
+
+This shows that there is little to no correlation between gene expression between brain regions, in terms of over neurodegenerative disease and inflammation as well. This aligns well with the results shown above as there was little to no similarity in terms of gene expression profiles in the brain regions that were listed above.
+
+# Impact
 
 This study can allow for better-targeted treatments tackling Alzheimer's as researchers can understand the efficacy of certain genes in different parts of the brain through differential gene and transcript expression. Through our workflow outlined above, the scientists can:
 
 - Run additional testing with modifications of the expressed genes (gene editing) to see if the targets restored brain function inside subjects.
 - Run clinical experiments with our open-source code and workflow, circumventing dry lab testing (improves accessibility and affordability)
 
+![Untitled](Memo%200e30296069224924a52d9e1360f35b62/Untitled.png)
+
+Alzheimer's and other neurodegenerative disorders have continued to cost healthcare institutions and the world millions of dollars in direct and indirect costs. Additionally, it continues to be a leading cause in human suffering for 6.2 million people in America alone. While traditional drug discovery pipelines have continued to focus and even stagnate on key proteins and other kinds of targets, but have shown minimal results, it has become clear that learning more about the biological processes involved in the brain at the neurobiological level will be critical for the discovery of new targets and therapies aimed at reducing the strain of neurodegenerative diseases like Alzheimers. 
+
+The study acts as a way to validate an optimized pipeline, designed to test and validate gene profiles for the discovery of new targets, given any hypothesis. In this instance, a focus on the connection between the innate immune system and Alzheimers was tested and validated using this experimental pipeline, and was able to find several key candidates for new genome-level drug molecule targets. 
+
+Ultimately, to better understand the brain and the role that disease has on it, studies must observe and connect all parts of the brain at different resolutions. This study aims to connect the lowest-level of the human brain and its connection to neurodegenerative diseases by observing changes at the tissue and whole-brain level. 
+
 ### Further Research
 
 Through additional MRI scans and gene expression data focused on other neurodegenerative diseases, this analysis can further be extended to disorders, like Parkinson's, a condition that over [10 million](https://www.parkinson.org/Understanding-Parkinsons/Statistics) face but still has only been explored on how symptoms can be improved (e.g. looking on improving [motor control](https://www.mayoclinic.org/diseases-conditions/parkinsons-disease/symptoms-causes/syc-20376055) issues with the symptoms of Parkinson's through the release of dopamine as a transmitter).
 
-Further calculations can be conducted to see the average expression level of a gene based on its frequency and range in a specific tissue instance, and that normalization procedure would ultimately yield a cleaner trendline that better describes the gene expression activity responsible for higher inflammation. Certainly, other datasets can be used to validate this hypothesis for clinical purposes (i.e. amyloid plaque and tau tangles alzheimers datasets).
+Further calculations can be conducted to see the average expression level of a gene based on its frequency and range in a specific tissue instance, and that normalization procedure would ultimately yield a cleaner trendline that better describes the gene expression activity responsible for higher inflammation. Certainly, other datasets can be used to validate this hypothesis for clinical purposes (i.e. amyloid plaque and tau tangles alzheimers datasets). 
+
+Key research and discovery bottlenecks need to be met with the ability to rapidly prototype new gene profiles and build models that accurately reflect neurodegenerative disease progression at different resolutions. Our study showcases the benefit of being able to realize this process in the case for connecting immune responses in the brain to the progression of Alzheimer's, which can play a key role in assessing, diagnosing, and even predicting new targets. The choice of the transcriptome to evaluate gene expression levels was chosen to increase the transferrability of information to a traditional drug discovery pipeline that can incoporate findings in the pipeline with higher-level imaging processes (ie. linkage of protein to connectome). Inherently, the majority of phenotype-genotype interactions are built on cellular profiles, so having the ability to analyze what specific processes are at play in a given cell (in this instance, the dendritic cells of each tissue sample), one can effectively build causal relationships across different resolutions of the brain. 
+
+The majority of neurodegenerative disorders have no definitive testing mechanism that carefully evaluates the quantitative biological markers responsible for the disease. Ultimately, the holy grail of treatment is really any novel biomarkers that we can find. These reliable biomarkers, which are often needed to be abnormal, visible, and testible with high confidence accelerate the ability for the healthcare industry to provide care while the data collected can be used by biotech to produce meaningful therapies and interventions. The only biomarkers which match these constraints fall at the genome level, whereas the logistical requirements need to be satisfied by brain imaging. Connecting the incidence of both phenotypic and genotypic data satisfies both parts of the field, and can only be done with precision through the use of modern machine learning models in vision and the temporal nature of gene expression while allowing new models to build layers of understanding above for data on molecules, cells, and other pathways.
