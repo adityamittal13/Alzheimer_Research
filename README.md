@@ -45,7 +45,7 @@ To provide differential gene expression, FASTQ files were needed in conjunction 
 
 ### Workflow
 
-![Screen Shot 2021-10-16 at 2.35.26 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_2.35.26_PM.png)
+![Screen Shot 2021-10-16 at 2.35.26 PM.png](Memo/Screen_Shot_2021-10-16_at_2.35.26_PM.png)
 
 ### Analyzing MRI Imaging Data To Detect Inflammation
 
@@ -83,25 +83,25 @@ This workflow was segmented for all regions of the brain, and so novel insights 
 
 ## Results and Discussion
 
-![Screen Shot 2021-10-16 at 11.04.05 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.04.05_PM.png)
+![Screen Shot 2021-10-16 at 11.04.05 PM.png](Memo/Screen_Shot_2021-10-16_at_11.04.05_PM.png)
 
-![Screen Shot 2021-10-16 at 11.19.21 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.19.21_PM.png)
+![Screen Shot 2021-10-16 at 11.19.21 PM.png](Memo/Screen_Shot_2021-10-16_at_11.19.21_PM.png)
 
-![Screen Shot 2021-10-16 at 11.22.34 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.22.34_PM.png)
+![Screen Shot 2021-10-16 at 11.22.34 PM.png](Memo/Screen_Shot_2021-10-16_at_11.22.34_PM.png)
 
 This is identified by the upregulation of several genes in the hippocampal pathway in comparison to the occipital lobe pathway when looking at the overlap across the neurodegenerative and inflammation correlation. 
 
 This indicates that genes GRB2, MAPK1, and PRKCG regulate inflammation and are highly expressed in the presence of neurodegenerative diseases, along with several other potential genes who cluster near the pathway trendline. 
 
-![Screen Shot 2021-10-16 at 11.36.04 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.36.04_PM.png)
+![Screen Shot 2021-10-16 at 11.36.04 PM.png](Memo/Screen_Shot_2021-10-16_at_11.36.04_PM.png)
 
 The same trend showed true for the average expression levels for each gene relative to the area, with the range of expression for the most upregulated genes in the neurodegenerative and inflammation datasets for the hippocampal pathway were between 1.384 to 2.619. 
 
-![Screen Shot 2021-10-16 at 11.33.06 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.33.06_PM.png)
+![Screen Shot 2021-10-16 at 11.33.06 PM.png](Memo/Screen_Shot_2021-10-16_at_11.33.06_PM.png)
 
 The results were obtained for 26 different parts of the brain, each oriented for the specific sequence of transcription. Inflammation in the occipital lobe had a low correlation with most if not all degenerative diseases (which coincides with common logic as Alzheimers does not affect this area) found in the TSNE clustering. However, for the hippocampal formation data, there was a strong correlation with clustered genes and the ground-truth, indicating that there is an early onset of gene expression in this region that directly correlates to AD.
 
-![Screen Shot 2021-10-16 at 8.46.09 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_8.46.09_PM.png)
+![Screen Shot 2021-10-16 at 8.46.09 PM.png](Memo/Screen_Shot_2021-10-16_at_8.46.09_PM.png)
 
 ## Impact
 
