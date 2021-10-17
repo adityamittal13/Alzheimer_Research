@@ -84,25 +84,25 @@ This workflow was segmented for all regions of the brain, and so novel insights 
 
 # Results and Discussion
 
-![Screen Shot 2021-10-16 at 11.04.05 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.04.05_PM.png)
+![Screen Shot 2021-10-16 at 11.04.05 PM.png](Memo/Screen_Shot_2021-10-16_at_11.04.05_PM.png)
 
-![Screen Shot 2021-10-16 at 11.19.21 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.19.21_PM.png)
+![Screen Shot 2021-10-16 at 11.19.21 PM.png](Memo/Screen_Shot_2021-10-16_at_11.19.21_PM.png)
 
-![Screen Shot 2021-10-16 at 11.22.34 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.22.34_PM.png)
+![Screen Shot 2021-10-16 at 11.22.34 PM.png](Memo/Screen_Shot_2021-10-16_at_11.22.34_PM.png)
 
 This is identified by the upregulation of several genes in the hippocampal pathway in comparison to the occipital lobe pathway when looking at the overlap across the neurodegenerative and inflammation correlation. 
 
 This indicates that genes GRB2, MAPK1, and PRKCG regulate inflammation and are highly expressed in the presence of neurodegenerative diseases, along with several other potential genes who cluster near the pathway trendline. 
 
-![Screen Shot 2021-10-16 at 11.36.04 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.36.04_PM.png)
+![Screen Shot 2021-10-16 at 11.36.04 PM.png](Memo/Screen_Shot_2021-10-16_at_11.36.04_PM.png)
 
 The same trend showed true for the average expression levels for each gene relative to the area, with the range of expression for the most upregulated genes in the neurodegenerative and inflammation datasets for the hippocampal pathway were between 1.384 to 2.619. 
 
-![Screen Shot 2021-10-16 at 11.33.06 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_11.33.06_PM.png)
+![Screen Shot 2021-10-16 at 11.33.06 PM.png](Memo/Screen_Shot_2021-10-16_at_11.33.06_PM.png)
 
 The results were obtained for 26 different parts of the brain, each oriented for the specific sequence of transcription. Inflammation in the occipital lobe had a low correlation with most if not all degenerative diseases (which coincides with common logic as Alzheimers does not affect this area) found in the tSNE clustering. However, for the hippocampal formation data, there was a strong correlation with clustered genes and the ground-truth, indicating that there is an early onset of gene expression in this region that directly correlates to AD.
 
-![Screen Shot 2021-10-16 at 8.53.42 PM.png](Memo%200e30296069224924a52d9e1360f35b62/Screen_Shot_2021-10-16_at_8.53.42_PM.png)
+![Screen Shot 2021-10-16 at 8.53.42 PM.png](Memo/Screen_Shot_2021-10-16_at_8.53.42_PM.png)
 
 In genomic studies, tSNE captures neighboring points in the input space in terms of their distance, clustering them together and making them neighbors in a two dimensional framework. The tSNE plots to the left show little to no relationship between different gene expression profiles in terms of the mapped regions inside of the brain. 
 
@@ -115,7 +115,7 @@ This study can allow for better-targeted treatments tackling Alzheimer's as rese
 - Run additional testing with modifications of the expressed genes (gene editing) to see if the targets restored brain function inside subjects.
 - Run clinical experiments with our open-source code and workflow, circumventing dry lab testing (improves accessibility and affordability)
 
-![Untitled](Memo%200e30296069224924a52d9e1360f35b62/Untitled.png)
+![Untitled](Memo/Untitled.png)
 
 Alzheimer's and other neurodegenerative disorders have continued to cost healthcare institutions and the world millions of dollars in direct and indirect costs. Additionally, it continues to be a leading cause in human suffering for 6.2 million people in America alone. While traditional drug discovery pipelines have continued to focus and even stagnate on key proteins and other kinds of targets, but have shown minimal results, it has become clear that learning more about the biological processes involved in the brain at the neurobiological level will be critical for the discovery of new targets and therapies aimed at reducing the strain of neurodegenerative diseases like Alzheimers. 
 
